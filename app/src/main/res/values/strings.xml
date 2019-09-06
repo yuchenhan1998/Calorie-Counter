@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Calorie Counter</string>
+    <string name="title_activity_add">add</string>
+    <string name="title_activity_creative">Creative</string>
+</resources>

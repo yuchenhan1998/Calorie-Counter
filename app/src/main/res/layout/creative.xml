@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+
+    <Button
+            android:text="APPLE"
+            android:layout_width="303dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/apple" app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp" app:layout_constraintTop_toTopOf="parent"
+            android:textSize="24sp" android:layout_marginTop="80dp"/>
+    <Button
+            android:text="Banana"
+            android:layout_width="303dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/banana" app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp" android:layout_marginTop="68dp"
+            app:layout_constraintTop_toBottomOf="@+id/apple" app:layout_constraintHorizontal_bias="0.498"
+            android:textSize="24sp"/>
+    <Button
+            android:text="PEAR"
+            android:layout_width="303dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/pear" android:layout_marginTop="68dp"
+            app:layout_constraintTop_toBottomOf="@+id/banana" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+            app:layout_constraintHorizontal_bias="0.498" android:textSize="24sp"/>
+    <Button
+            android:text="ORANGE"
+            android:layout_width="303dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/orange" app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp" android:layout_marginTop="68dp"
+            app:layout_constraintTop_toBottomOf="@+id/pear" app:layout_constraintHorizontal_bias="0.498"
+            android:textSize="24sp"/>
+    <Button
+            android:text="MOCHA"
+            android:layout_height="wrap_content"
+            android:id="@+id/mocha" android:layout_marginTop="68dp"
+            app:layout_constraintTop_toBottomOf="@+id/orange" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+            app:layout_constraintHorizontal_bias="0.498" android:textSize="24sp" android:layout_width="303dp"/>
+
+
+</android.support.constraint.ConstraintLayout>
